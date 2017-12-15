@@ -1,1 +1,1 @@
-git@github.com:DMR93/Wokop-computer.git
+https://codepen.io/DMR93/
