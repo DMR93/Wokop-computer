@@ -6,7 +6,7 @@
 ---
 ###Descripción:
 ---
->Este proyecto trata de una tienda de informática la cual es ireal, elaborando asi muchos servicios extras a sus clientes. 
+>Este proyecto trata de una tienda de informática, da varios servicios extras a sus clientes. 
 
 ###Boceto:
 ---
