@@ -1,8 +1,8 @@
 #Wocop computer
 
 ###Links:
-1. [Github pages](https://dmr93.github.io/wokop-computer/)  
-1. [Codepen](https://codepen.io/DMR93/)
+- [Github pages](https://dmr93.github.io/wokop-computer/)  
+- [Codepen](https://codepen.io/DMR93/)
 ---
 ###Descripción:
 ---
