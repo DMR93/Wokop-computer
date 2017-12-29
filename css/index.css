@@ -24,7 +24,7 @@ header {
   text-align: center;
 }
 .contenido {
-  boder: 2px solid black;
+  border: 2px solid black;
   margin: auto;
 
 }
@@ -32,6 +32,4 @@ body {
   display: block;
   background-color: #09c4a8;
   color: black;
-  width: 100%;
-  height: 100%;
 }
