@@ -1,13 +1,31 @@
 # Wocop computer
 
-### Links:
-- [Github pages](https://dmr93.github.io/wokop-computer/)  
-- [Codepen](https://codepen.io/DMR93/)
----
-### Descripción:
----
->Este proyecto trata de una tienda de informática, da varios servicios extras a sus clientes. 
+## Descripción
 
-### Boceto:
----
-![-->](https://github.com/DMR93/wokop-computer/blob/master/boceto.png)
+Este proyecto trata de una pagina (Landing page) para promocionar un producto orientado al publico gamer.
+
+## Perfiles de usuario
+
+| Descripción | Enlaces | Observaciones |
+|--------|--------|--------|
+|   Codepen     |   [https://codepen.io/DMR93/ ](https://codepen.io/DMR93/)     |   mi perfil de codepen     |
+|     Github   |   [https://github.com/DMR93](https://github.com/DMR93)     |   mi perfil de github     |
+|      Proyecto  |   [https://dmr93.github.io/wokop-computer/](https://dmr93.github.io/wokop-computer/)     |   mi proyecto      |
+
+## Herramientas utilizadas
+
+- Draw.io:  [https://www.draw.io/](https://www.draw.io/)
+- Trello: [https://trello.com](https://trello.com)
+- Atom: [https://atom.io/](https://atom.io/)
+- Font awesome: [https://fontawesome.com](https://fontawesome.com)
+- Haroopad: [http://pad.haroopress.com/](http://pad.haroopress.com/)
+- Google fonts: [https://fonts.google.com/](https://fonts.google.com/)
+- Font cdn: [https://fontcdn.org/](https://fontcdn.org/)
+
+## Fase 1: Boceto inicial de la página
+
+![imagen](img/boceto.png)
+
+## Fase 2: Cambios en el boceto
+
+
