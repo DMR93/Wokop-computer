@@ -1,14 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Coustard);
 @import url(https://fonts.googleapis.com/css?family=Viga);
-
 /* estructura de la pagina */
+
 body {
   display: block;
   background-color: #09c4a8;
   color: black;
   margin: 0;
 }
+
 /* Cabecera de la pag*/
+
 header {
   display: flex;
   align-items: center;
@@ -19,12 +21,23 @@ header {
   padding: 4px;
   text-align: center;
 }
+
 header #menu {
   display: block;
   width: auto;
   margin: auto;
   padding: 4px;
 }
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  height: 100%;
+  margin: auto;
+}
+
 #menu a {
   margin: 4px;
   color: #1ec392;
@@ -32,11 +45,13 @@ header #menu {
   font-family: 'Coustard', serif;
 }
 
-#menu a:hover{
+#menu a:hover {
   color: #ec2d0c;
   border-bottom: 1px solid #ec2d0c;
 }
+
 /*Cuerpo de la pag*/
+
 #inicio {
   background-image: url(../img/slider.jpg);
   height: 600px;
@@ -59,16 +74,94 @@ header #menu {
   font-family: 'Coustard', serif;
 }
 
-.descripcion {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+#cara {
+  display: flex;
+  height: 600px;
+  background-color: #d3ece7;
 }
 
+#cara h1 {
+  margin: 0;
+  color: black;
+  font-size: 32px;
+  font-family: 'Viga', sans-serif;
+}
+
+#cara h2 {
+  color: black;
+  font-size: 15px;
+  font-family: 'Viga', sans-serif;
+}
+
+#cara p {
+  color: black;
+  font-size: 25px;
+  width: 480px;
+  text-align: center;
+  font-family: 'Viga', sans-serif;
+}
+
+#galeria h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Viga', sans-serif;
+}
+
+#galeria h2 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Viga', sans-serif;
+}
+
+.descripcion {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.descripcion1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.imagen {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.footerh1 {
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Viga', sans-serif;
+}
+
+.iconos {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  margin: 4px;
+  padding: 10px;
+}
 /* Arregla el espacio (margen) de la página */
+
 h1 {
-  margin:0;
+  margin: 0;
 }
