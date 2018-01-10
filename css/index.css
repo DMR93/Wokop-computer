@@ -22,6 +22,10 @@ header {
   text-align: center;
 }
 
+header img {
+  margin: 10px;
+}
+
 header #menu {
   display: block;
   width: auto;
@@ -32,10 +36,8 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: white;
-  color: black;
+  background-color: #2D312F;
   height: 100%;
-  margin: auto;
 }
 
 #menu a {
@@ -78,6 +80,7 @@ footer {
   display: flex;
   height: 600px;
   background-color: #d3ece7;
+  padding: 50px;
 }
 
 #cara h1 {
@@ -99,6 +102,10 @@ footer {
   width: 480px;
   text-align: center;
   font-family: 'Viga', sans-serif;
+}
+
+#galeria {
+  padding: 50px;
 }
 
 #galeria h1 {
@@ -145,10 +152,29 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.testimonios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2dcdd;
+  height: 400px;
+  margin: 0;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8e354;
+  height: 400px;
+  margin: 0;
+}
 .footerh1 {
-  color: black;
+  color: white;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
   font-size: 14px;
   font-family: 'Viga', sans-serif;
 }
@@ -156,9 +182,29 @@ footer {
 .iconos {
   display: flex;
   font-size: 40px;
+  color: white;
   justify-content: center;
-  margin: 4px;
-  padding: 10px;
+  margin: 10px;
+}
+.iconos a {
+  color: white;
+  margin: 8px;
+}
+.copyright {
+  color: white;
+  margin: 8px;
+}
+.contacto{
+  margin: 8px;
+  display: flex;
+}
+
+.contacto p {
+  margin: 10px;
+}
+
+.contacto i {
+  margin: 5px;
 }
 /* Arregla el espacio (margen) de la página */
 
