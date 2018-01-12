@@ -48,9 +48,8 @@ footer {
 }
 
 #menu a:hover {
-  color: #ec2d0c;
   border-style: 1px solid #ec2d0c;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 1px 1px 0 grey;
 }
 
 /*Cuerpo de la pag*/
@@ -63,7 +62,7 @@ footer {
 }
 
 #inicio h1 {
-  margin: 0;
+  margin: 50px;
   color: white;
   font-size: 72px;
   font-family: 'Viga', sans-serif;
@@ -87,7 +86,6 @@ footer {
 #cara h1 {
   margin: 50px;
   display: flex;
-  flex-
   color: black;
   font-size: 32px;
   font-family: 'Viga', sans-serif;
