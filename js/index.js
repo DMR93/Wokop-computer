@@ -6,4 +6,5 @@ $(document).ready(function() {
       autoplay: true,
       autoplaySpeed: 2000,
   });
+  AOS.init();
 });

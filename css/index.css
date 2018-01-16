@@ -59,6 +59,7 @@ footer {
   height: 600px;
   background-size: cover;
   background-position: center;
+  padding: 160px;
 }
 
 #inicio h1 {
@@ -80,7 +81,7 @@ footer {
   display: flex;
   height: 600px;
   background-color: #d3ece7;
-  padding: 50px;
+  padding: 160px;
 }
 
 #cara h1 {
@@ -106,8 +107,11 @@ footer {
   font-family: 'Viga', sans-serif;
 }
 
+#cara img {
+  margin: 10px;
+}
 #galeria {
-  padding: 50px;
+  padding: 110px;
 }
 
 #galeria h1 {
@@ -125,6 +129,14 @@ footer {
   font-family: 'Viga', sans-serif;
 }
 
+#opiniones {
+
+}
+
+#footer {
+  margin: 0;
+  height: 100vh;
+}
 .descripcion {
   width: 50%;
   display: flex;
@@ -143,6 +155,10 @@ footer {
   height: 100%;
 }
 
+.descripcion1 a {
+  margin: 10px;
+  color: black;
+}
 .imagen {
   margin: 0;
   display: flex;
@@ -158,8 +174,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #d2dcdd;
-  height: 400px;
-  margin: 0;
+  height: 615px;
+  padding: 150px;
 }
 
 .formulario {
@@ -167,8 +183,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #d8e354;
-  height: 400px;
-  margin: 0;
+  height: 653px;
+  padding: 140px;
 }
 .footerh1 {
   color: white;
@@ -192,7 +208,19 @@ footer {
 }
 .copyright {
   color: white;
-  margin: 8px;
+  margin: 20px;
+}
+.copyright i {
+  color: white;
+  margin: 5px;
+}
+.copyright a {
+  text-decoration: none;
+  color: red;
+}
+.copyright a:hover {
+  border-style: 1px solid #ec2d0c;
+  text-shadow: 1px 1px 2px black;
 }
 .contacto{
   margin: 8px;
