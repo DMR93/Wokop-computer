@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto trata de una pagina (Landing page) para promocionar un producto orientado al publico gamer.
+Este proyecto trata de una pagina (Landing page) para promocionar una app para android.
 
 ## Perfiles de usuario
 
@@ -27,5 +27,3 @@ Este proyecto trata de una pagina (Landing page) para promocionar un producto or
 ![imagen](img/boceto.png)
 
 ## Fase 2: Cambios en el boceto
-
-
