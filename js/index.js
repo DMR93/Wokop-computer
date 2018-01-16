@@ -8,3 +8,6 @@ $(document).ready(function() {
   });
   AOS.init();
 });
+
+var elm = document.querySelector('#main-header');
+var ms = new MenuSpy(elm);

@@ -13,15 +13,15 @@
 </head>
 
 <body>
-  <header>
+  <header id="main-header">
     <a href="https://dmr93.github.io/wokop-computer/"><img src="img/logo.png" alt="logo"></a>
     <nav id="menu">
-      <a class="scroll" href="#inicio">Inicio</a>
-      <a class="scroll" href="#cara">Caracteristicas</a>
-      <a class="scroll" href="#galeria">Galeria</a>
-      <a class="scroll" href="#opiniones">Opiniones</a>
-      <a class="scroll" href="#formulario">Comentanos</a>
-      <a class="scroll" href="#redes">Redes Sociales</a>
+        <a class="scroll" href="#inicio" data-target="selector">Inicio</a>
+        <a class="scroll" href="#cara">Caracteristicas</a>
+        <a class="scroll" href="#galeria">Galeria</a>
+        <a class="scroll" href="#opiniones">Opiniones</a>
+        <a class="scroll" href="#formulario">Comentanos</a>
+        <a class="scroll" href="#redes">Redes Sociales</a>
     </nav>
     <div class="contacto">
       <p><i class="fas fa-phone"></i>657-534-943</p>
@@ -32,8 +32,10 @@
   <section id="inicio">
     <div class="descripcion">
       <h1>Wocopapp</h1>
+      <div data-aos="fade-left" data-aos-duration= "2000">
       <p>Con esta nueva app podras organizar toda clase de cambios en tu movil.</p>
-      <div data-aos="zoom-in">
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="2800">
         <a href="http://unicorn-ui.com/" class="button button-3d button-action button-pill">Descargar</a>
       </div>
     </div>
@@ -98,8 +100,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
   <script src="js/vendors/scroll.min.js"></script>
+  <script src="js/vendors/menuspy.js"></script>
   <script src="js/vendors/jquery.scrollify.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"></script>
   <script src="js/index.js"></script>
 </body>
 
