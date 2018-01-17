@@ -33,3 +33,10 @@ $(document).ready(function () {
     });
     AOS.init();
 });
+
+var options = {
+  menuItemSelector: 'a[href^="#"]',
+  activeClass: 'active'
+}
+var elm = document.querySelector('#main-header');
+var ms = new MenuSpy(elm, options);
