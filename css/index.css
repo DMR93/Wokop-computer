@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Coustard);
 @import url(https://fonts.googleapis.com/css?family=Viga);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Raleway:700);
 /* estructura de la pagina */
 
 body {
@@ -114,14 +116,14 @@ footer {
 
 #cara p {
   color: black;
-  font-size: 25px;
+  font-size: 15px;
   width: 480px;
   text-align: center;
-  font-family: 'Viga', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #cara img {
-  margin: 10px;
+  margin-left: 20px;
 }
 #galeria {
   padding: 110px;
@@ -141,14 +143,36 @@ footer {
   font-size: 15px;
   font-family: 'Viga', sans-serif;
 }
-
 #opiniones {
+  padding: 150px;
+  background-color: white;
+}
 
+#opiniones h1 {
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Viga', sans-serif;
+}
+
+#opiniones h2 {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Viga', sans-serif;
 }
 
 #footer {
   margin: 0;
   height: 100vh;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  margin: 10px;
+  background-color: white;
 }
 .descripcion {
   width: 50%;
@@ -182,14 +206,7 @@ footer {
   margin: auto;
 }
 
-.testimonios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #d2dcdd;
-  height: 615px;
-  padding: 150px;
-}
+
 
 .formulario {
   display: flex;
@@ -236,16 +253,22 @@ footer {
   text-shadow: 1px 1px 2px black;
 }
 .contacto{
-  margin: 8px;
+  margin-right: 30px;
   display: flex;
 }
 
-.contacto p {
+.contacto title {
   margin: 10px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .contacto i {
   margin: 5px;
+  font-size: 20px;
+}
+
+.comentarios img {
+  border-radius: 50%;
 }
 /* Arregla el espacio (margen) de la página */
 

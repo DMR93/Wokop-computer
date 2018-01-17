@@ -14,7 +14,12 @@ function cargarTestimonios() {
 
 $(document).ready(function () {
     cargarTestimonios();
-
+    tippy('.btn', {
+      placement: 'top',
+      trigger: 'click',
+      animation: 'scale',
+      inertia: true,
+});
 
     $('.slider').slick({
         infinite: true,
@@ -24,7 +29,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000
     });
 
-    $('#contenedor-testimonio').slick({
+    $('.comentarios').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 2,
@@ -32,11 +37,12 @@ $(document).ready(function () {
         autoplaySpeed: 2000
     });
     AOS.init();
+    $.cookieBar();
 });
 
 var options = {
-  menuItemSelector: 'a[href^="#"]',
-  activeClass: 'active'
+
+  activeClass: 'active',
 }
 var elm = document.querySelector('#main-header');
 var ms = new MenuSpy(elm, options);
