@@ -41,8 +41,7 @@ $(document).ready(function () {
 });
 
 var options = {
-
   activeClass: 'active',
 }
-var elm = document.querySelector('#main-header');
+var elm = document.querySelector('nav#menu');
 var ms = new MenuSpy(elm, options);
