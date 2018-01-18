@@ -143,6 +143,14 @@ footer {
   font-size: 15px;
   font-family: 'Viga', sans-serif;
 }
+
+#galeria h3  {
+  display: flex;
+  flex-direction: row;
+text-align: center;
+padding: 0;
+}
+
 #opiniones {
   padding: 150px;
   background-color: white;
@@ -274,4 +282,33 @@ footer {
 
 h1 {
   margin: 0;
+}
+
+ header ul {
+  margin: 0;
+  padding: 0;
+}
+.cookie-message {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:30px;
+  background-color:rgba(4, 4, 3, 0.51);
+  padding: 10px;
+  text-align: center;
+  font-family: 'Coustard', serif;
+  font-size: 14px;
+  color: white;
+  z-index: 5;
+}
+
+.cookie-message a {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.textoslider {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

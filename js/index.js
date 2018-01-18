@@ -24,24 +24,17 @@ $(document).ready(function () {
     $('.slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000
     });
 
-    $('.comentarios').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        autoplay: true,
-        autoplaySpeed: 2000
-    });
     AOS.init();
-    $.cookieBar();
+    $('.cookie-message').cookieBar({ closeButton : '.my-close-button'});
 });
 
 var options = {
   activeClass: 'active',
 }
-var elm = document.querySelector('nav#menu');
+var elm = document.querySelector('header nav');
 var ms = new MenuSpy(elm, options);
