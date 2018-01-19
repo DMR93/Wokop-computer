@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Wokop computer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">-->
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/buttons.css" type="text/css">
@@ -22,9 +24,9 @@
       <ul>
         <li><a class="scroll" href="#inicio">Inicio</a></li>
         <li><a class="scroll" href="#cara">Caracteristicas</a></li>
-        <li><a class="scroll" href="#galeria">Galeria</a></li>
         <li><a class="scroll" href="#opiniones">Opiniones</a></li>
         <li><a class="scroll" href="#formulario">Comentanos</a></li>
+        <li><a class="scroll" href="#galeria">Galeria</a></li>
       </ul>
     </nav>
     <div class="contacto">
@@ -64,19 +66,6 @@
     </div>
   </section>
 
-  <section id="galeria">
-    <h1>Galeria</h1>
-    <h2>Ultimas novedades de la app</h2>
-    <div class="slider">
-      <div><img src="img/mobile-phon-2.png" alt="img1"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-2.png" alt="img2"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-7.png" alt="img3"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-4.png" alt="img4"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-5.png" alt="img5"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-6.png" alt="img6"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-    </div>
-  </section>
-
   <section id="opiniones">
     <h1>Opiniones</h1>
     <h2>Que opinan los usuarios acerca de wokopapp</h2>
@@ -99,9 +88,21 @@
     </div>
   </section>
 
-  <section id="formulario">
-    <div class="formulario">
-      <h1>Formulario</h1>
+<section id="formulario">
+  <form class="formulario" action="index.html" method="post">
+    <h1>Formulario</h1> Nombre:
+    <input type="text" name="nombreapellidos" value="" placeholder="Nombre y apellidos" required> Comenta que opinas de la app<textarea name="comentarios de usuario" rows="8" cols="80" placeholder="Comenta aqui"></textarea>
+    <input type="submit" name="enviar" value="Enviar">
+  </form>
+  </section>
+
+  <section id="galeria">
+    <h1>Galeria</h1>
+    <h2>Ultimas novedades de la app</h2>
+    <div class="slider owl-theme">
+      <div><img src="img/mobile-phon-2.png" alt="img1"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
+      <div><img src="img/mobile-phon-2.png" alt="img2"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
+      <div><img src="img/mobile-phon-7.png" alt="img3"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
     </div>
   </section>
 
@@ -120,9 +121,10 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-  <script src="js/vendors/scroll.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/menuspy@1.2.1/dist/menuspy.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>-->
+  <script src="js/vendors/scroll.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src="https://unpkg.com/tippy.js@2.0.9/dist/tippy.all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cookieBar/0.0.3/jquery.cookieBar.min.js"></script>

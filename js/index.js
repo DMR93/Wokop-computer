@@ -21,13 +21,20 @@ $(document).ready(function () {
       inertia: true,
 });
 
-    $('.slider').slick({
-        infinite: true,
+    /*$('.slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000
+    });*/
+    $('.slider').owlCarousel({
         slidesToShow: 3,
-        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
-    });
+    		items : 6,
+    		navigation: true,
+    		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+});
 
     AOS.init();
     $('.cookie-message').cookieBar({ closeButton : '.my-close-button'});
