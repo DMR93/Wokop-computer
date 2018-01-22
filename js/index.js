@@ -19,7 +19,7 @@ $(document).ready(function () {
       trigger: 'click',
       animation: 'scale',
       inertia: true,
-});
+
 
     /*$('.slider').slick({
       infinite: true,
@@ -28,13 +28,16 @@ $(document).ready(function () {
       autoplay: true,
       autoplaySpeed: 2000
     });*/
-    $('.slider').owlCarousel({
-        slidesToShow: 3,
-        autoplay: true,
-    		items : 6,
-    		navigation: true,
-    		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+    $('#owl-carousel').owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+		items : 3,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3],
+		navigation: true,
+		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 });
+
 
     AOS.init();
     $('.cookie-message').cookieBar({ closeButton : '.my-close-button'});
