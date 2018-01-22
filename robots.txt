@@ -3,6 +3,6 @@ User-agent: *
 Disallow:
 
 
-#sitemaps
+# Sitemaps
 
 Sitemap: https://dmr93.github.io/wokop-computer/sitemap.xml
