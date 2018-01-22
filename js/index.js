@@ -19,27 +19,26 @@ $(document).ready(function () {
       trigger: 'click',
       animation: 'scale',
       inertia: true,
+});
 
-
-    /*$('.slider').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000
-    });*/
-    $('#owl-carousel').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-		items : 3,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,3],
+$('.owl-carousel').owlCarousel({
+    autoPlay: 1000, //Set AutoPlay to 3 seconds
+    autoWidth: true,
+		items: 1,
 		navigation: true,
 		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 });
 
+$('.opiniones-slider').owlCarousel({
+    autoPlay: 1000, //Set AutoPlay to 3 seconds
+    items: 3,
+    autoWidth: true,
+    navigation: true,
+    navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+  });
 
     AOS.init();
+
     $('.cookie-message').cookieBar({ closeButton : '.my-close-button'});
 });
 

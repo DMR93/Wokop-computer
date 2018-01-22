@@ -126,7 +126,15 @@ footer {
   margin-left: 20px;
 }
 #galeria {
+  background-image: url(../img/fondoparagaleria.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
   padding: 110px;
+}
+
+#galeria li {
+  list-style-type: none;
 }
 
 #galeria h1 {
@@ -156,6 +164,10 @@ padding: 0;
   background-color: white;
 }
 
+#opiniones li {
+list-style-type: none;
+}
+
 #opiniones h1 {
   margin: 0;
   color: black;
@@ -182,6 +194,7 @@ padding: 0;
   margin: 10px;
   background-color: white;
 }
+
 .descripcion {
   width: 50%;
   display: flex;
@@ -204,17 +217,12 @@ padding: 0;
   margin: 10px;
   color: black;
 }
+
 .imagen {
   margin: 0;
   display: flex;
   justify-content: center;
 }
-
-.slider {
-  margin: auto;
-}
-
-
 
 .formulario {
   display: flex;
@@ -306,10 +314,4 @@ h1 {
 .cookie-message a {
   text-align: center;
   margin-left: 10px;
-}
-
-.textoslider {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }

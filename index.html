@@ -15,7 +15,8 @@
 
 <body>
   <div class="cookie-message">
-  	Utilizamos cookies propias y de terceros para mejorar la experiencia de navegación y ofrecer contenidos de interés.<a class="button button-action button-pill button-small my-close-button" href>OK</a><a class="button button-action button-pill button-small my-leggy-button" href="http://politicadecookies.com/" target="_blank">Leer más</a>
+    Utilizamos cookies propias y de terceros para mejorar la experiencia de navegación y ofrecer contenidos de interés.<a class="button button-action button-pill button-small my-close-button" href>OK</a><a class="button button-action button-pill button-small my-leggy-button"
+      href="http://politicadecookies.com/" target="_blank">Leer más</a>
   </div>
   <header id="main-header">
     <a href="https://dmr93.github.io/wokop-computer/"><img src="img/logo.png" alt="logo"></a>
@@ -23,8 +24,8 @@
       <ul>
         <li><a class="scroll" href="#inicio">Inicio</a></li>
         <li><a class="scroll" href="#cara">Caracteristicas</a></li>
-        <li><a class="scroll" href="#opiniones">Opiniones</a></li>
         <li><a class="scroll" href="#formulario">Comentanos</a></li>
+        <li><a class="scroll" href="#opiniones">Opiniones</a></li>
         <li><a class="scroll" href="#galeria">Galeria</a></li>
       </ul>
     </nav>
@@ -65,43 +66,49 @@
     </div>
   </section>
 
+  <section id="formulario">
+    <form class="formulario" action="index.html" method="post">
+      <h1>Formulario</h1> Nombre:
+      <input type="text" name="nombreapellidos" value="" placeholder="Nombre y apellidos" required> Comenta que opinas de la app<textarea name="comentarios de usuario" rows="8" cols="80" placeholder="Comenta aqui"></textarea>
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+  </section>
+
   <section id="opiniones">
     <h1>Opiniones</h1>
     <h2>Que opinan los usuarios acerca de wokopapp</h2>
-    <div class="slider comentarios">
-      <div>
-        <img src="img/mobile-phon-2.png" alt="img1">
-        <h6>pepito suarez</h6>
+    <div class="opiniones-slider owl-theme">
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>pepito suarez</h3>
         <p>Me encanta wokopapp</p>
       </div>
-      <div>
-        <img src="img/mobile-phon-2.png" alt="img2">
-        <h6>pepito suarez</h6>
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>pepito suarez</h3>
         <p>Me encanta wokopapp</p>
       </div>
-      <div>
-        <img src="img/mobile-phon-7.png" alt="img3">
-        <h6>pepito suarez</h6>
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>pepito suarez</h3>
         <p>Me encanta wokopapp</p>
       </div>
     </div>
-  </section>
-
-<section id="formulario">
-  <form class="formulario" action="index.html" method="post">
-    <h1>Formulario</h1> Nombre:
-    <input type="text" name="nombreapellidos" value="" placeholder="Nombre y apellidos" required> Comenta que opinas de la app<textarea name="comentarios de usuario" rows="8" cols="80" placeholder="Comenta aqui"></textarea>
-    <input type="submit" name="enviar" value="Enviar">
-  </form>
   </section>
 
   <section id="galeria">
     <h1>Galeria</h1>
     <h2>Ultimas novedades de la app</h2>
     <div class="owl-carousel owl-theme">
-      <div><img src="img/mobile-phon-2.png" alt="img1"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-2.png" alt="img2"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
-      <div><img src="img/mobile-phon-7.png" alt="img3"><h3>Cambios en el menu</h3><p>podremos cambiarlos a nuestro antojo</p></div>
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>Cambios en el menu</h3>
+        <p>podremos cambiarlos a nuestro antojo</p>
+      </div>
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>Cambios en el menu</h3>
+        <p>podremos cambiarlos a nuestro antojo</p>
+      </div>
+      <div><img src="img/mobile-phon-2.png" alt="img1">
+        <h3>Cambios en el menu</h3>
+        <p>podremos cambiarlos a nuestro antojo</p>
+      </div>
     </div>
   </section>
 
