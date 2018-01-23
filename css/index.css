@@ -127,7 +127,7 @@ footer {
 }
 #galeria {
   background-image: url(../img/fondoparagaleria.jpg);
-  height: 600px;
+  /* height: 600px; */
   background-size: cover;
   background-position: center;
   padding: 110px;

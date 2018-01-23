@@ -36,7 +36,28 @@ $('.opiniones-slider').owlCarousel({
     navigation: true,
     navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
   });*/
-  $('.banner').unslider();
+  var slider = tns({
+     container: '.my-slider',
+     items: 1,
+     arrowKeys: true,
+     controls: false,
+     slideBy: 'page',
+     autoplay: true,
+     autoplayButtonOutput: false,
+     nav: false,
+     mouseDrag: false,
+     autoHeight: true,
+   });
+   var slider = tns({
+      container: '.opiniones-slider',
+      items: 1,
+      slideBy: 'page',
+      autoplay: true,
+      controls: false,
+      autoplayButtonOutput: false,
+      nav: false,
+      mouseDrag: false,
+    });
 
     AOS.init();
 
