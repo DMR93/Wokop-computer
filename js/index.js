@@ -21,7 +21,7 @@ $(document).ready(function () {
       inertia: true,
 });
 
-$('.owl-carousel').owlCarousel({
+/*$('.owl-carousel').owlCarousel({
     autoPlay: 1000, //Set AutoPlay to 3 seconds
     autoWidth: true,
 		items: 1,
@@ -35,7 +35,8 @@ $('.opiniones-slider').owlCarousel({
     autoWidth: true,
     navigation: true,
     navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
-  });
+  });*/
+  $('.banner').unslider();
 
     AOS.init();
 

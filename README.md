@@ -21,6 +21,7 @@ Este proyecto trata de una pagina (Landing page) para promocionar una app para a
 - Haroopad: [http://pad.haroopress.com/](http://pad.haroopress.com/)
 - Google fonts: [https://fonts.google.com/](https://fonts.google.com/)
 - Font cdn: [https://fontcdn.org/](https://fontcdn.org/)
+- Real Favicon generator: [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 
 ## Fase 1: Boceto inicial de la página
 

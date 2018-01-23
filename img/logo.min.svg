@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="210mm" height="210mm" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0,-87)">
+  <path transform="matrix(0,1,1,0,0,0)" d="m274 109a80.9 80.1 0 0 1-40.4 69.4 80.9 80.1 0 0 1-80.9-1e-5 80.9 80.1 0 0 1-40.4-69.4l80.9 1e-5z" fill="#80b400" stroke="#000" stroke-width="7.26" style="paint-order:stroke markers fill"/>
+  <path transform="rotate(90)" d="m274-98.3a80.9 80.1 0 0 1-40.4 69.4 80.9 80.1 0 0 1-80.9-2e-6 80.9 80.1 0 0 1-40.4-69.4l80.9 3e-6z" fill="#80b400" stroke="#000" stroke-width="7.26" style="paint-order:stroke markers fill"/>
+  <g fill="none">
+   <path d="m41 158c19.2 56.2 26.2 72 26.2 72l17.4-27.1 8.24 30.7" stroke="#fffffb" stroke-width="10"/>
+   <path d="m113 235 28.7-86.2" stroke="#fff" stroke-width="8.06"/>
+   <path d="m129 194 36.3-12.9" stroke="#fffffe" stroke-width="8.06"/>
+   <path d="m128 199 18.9 30.2" stroke="#fffffb" stroke-width="7.96"/>
+  </g>
+ </g>
+</svg>
