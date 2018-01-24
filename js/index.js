@@ -21,23 +21,8 @@ $(document).ready(function () {
       inertia: true,
 });
 
-/*$('.owl-carousel').owlCarousel({
-    autoPlay: 1000, //Set AutoPlay to 3 seconds
-    autoWidth: true,
-		items: 1,
-		navigation: true,
-		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
-});
-
-$('.opiniones-slider').owlCarousel({
-    autoPlay: 1000, //Set AutoPlay to 3 seconds
-    items: 3,
-    autoWidth: true,
-    navigation: true,
-    navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
-  });*/
   var slider = tns({
-     container: '.my-slider',
+     container: '.galeria-slider',
      items: 1,
      arrowKeys: true,
      controls: false,
