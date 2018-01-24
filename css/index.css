@@ -133,14 +133,6 @@ footer {
   padding: 110px;
 }
 
-#galeria h1 {
-  margin: 0;
-  color: white;
-  text-align: center;
-  font-size: 32px;
-  font-family: 'Viga', sans-serif;
-}
-
 #galeria h2 {
   color: white;
   text-align: center;
@@ -159,6 +151,18 @@ footer {
   background-position: center;
   height: 650px;
   padding: 165px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#formulario input {
+  margin-bottom: 10px;
+}
+#formulario textarea {
+width: 200px;
+padding: 10px;
+margin-bottom: 10px;
 }
 
 #opiniones {
