@@ -86,7 +86,7 @@ footer {
 
 #inicio p {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   width: 480px;
   text-align: center;
   font-family: 'Coustard', serif;
@@ -103,7 +103,7 @@ footer {
   margin: 50px;
   display: flex;
   color: black;
-  font-size: 32px;
+  font-size: 38px;
   font-family: 'Viga', sans-serif;
 }
 
@@ -116,7 +116,7 @@ footer {
 
 #cara p {
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   width: 480px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -136,7 +136,7 @@ footer {
 #galeria h2 {
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Viga', sans-serif;
 }
 
@@ -182,7 +182,7 @@ margin-bottom: 10px;
 #opiniones h2 {
   color: black;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Viga', sans-serif;
 }
 
@@ -335,4 +335,19 @@ h1 {
 .cookie-message a {
   text-align: center;
   margin-left: 10px;
+}
+
+.my-close-button {
+  color: black !important;
+  font-family: 'Viga', sans-serif;
+}
+
+.my-leggy-button {
+  color: black !important;
+  font-family: 'Viga', sans-serif;
+}
+
+.button-action {
+  color: black !important;
+  font-family: 'Raleway', sans-serif;
 }
