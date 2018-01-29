@@ -25,12 +25,12 @@ Este proyecto trata de una pagina (Landing page) para promocionar una app para a
 
 ## Librerias utilizadas
 
--jQuery:  [https://jquery.com/](https://jquery.com/)
--MenuSpy: [https://github.com/lcdsantos/menuspy](https://github.com/lcdsantos/menuspy)
--Tiny-Slider: [https://github.com/ganlanyuan/tiny-slider](https://github.com/ganlanyuan/tiny-slider)
--AOS: [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
--Tippy: [https://atomiks.github.io/tippyjs/](https://atomiks.github.io/tippyjs/)
--jQuery Cookiebar: [https://github.com/carlwoodhouse/jquery.cookieBar](https://github.com/carlwoodhouse/jquery.cookieBar)
+- jQuery:  [https://jquery.com/](https://jquery.com/)
+- MenuSpy: [https://github.com/lcdsantos/menuspy](https://github.com/lcdsantos/menuspy)
+- Tiny-Slider: [https://github.com/ganlanyuan/tiny-slider](https://github.com/ganlanyuan/tiny-slider)
+- AOS: [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+- Tippy: [https://atomiks.github.io/tippyjs/](https://atomiks.github.io/tippyjs/)
+- jQuery Cookiebar: [https://github.com/carlwoodhouse/jquery.cookieBar](https://github.com/carlwoodhouse/jquery.cookieBar)
 
 
 
