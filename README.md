@@ -1,4 +1,4 @@
-# Wocop computer
+# Wokop computer --> Wokopapp
 
 ## Descripción
 
