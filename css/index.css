@@ -228,6 +228,12 @@ margin-bottom: 10px;
   height: 100%;
 }
 
+.descripcion img {
+  padding: 10px;
+  width: 300px;
+  height: 130px;
+}
+
 .descripcion1 {
   width: 50%;
   display: flex;
@@ -253,6 +259,10 @@ margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(../img/imagenformulariomobil.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .footerh1 {
   color: white;

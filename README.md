@@ -23,8 +23,25 @@ Este proyecto trata de una pagina (Landing page) para promocionar una app para a
 - Font cdn: [https://fontcdn.org/](https://fontcdn.org/)
 - Real Favicon generator: [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 
+## Librerias utilizadas
+
+-jQuery:  [https://jquery.com/](https://jquery.com/)
+-MenuSpy: [https://github.com/lcdsantos/menuspy](https://github.com/lcdsantos/menuspy)
+-Tiny-Slider: [https://github.com/ganlanyuan/tiny-slider](https://github.com/ganlanyuan/tiny-slider)
+-AOS: [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+-Tippy: [https://atomiks.github.io/tippyjs/](https://atomiks.github.io/tippyjs/)
+-jQuery Cookiebar: [https://github.com/carlwoodhouse/jquery.cookieBar](https://github.com/carlwoodhouse/jquery.cookieBar)
+
+
+
 ## Fase 1: Boceto inicial de la página
 
 ![imagen](img/boceto.png)
 
 ## Fase 2: Cambios en el boceto
+
+![imagen](img/bocetofase2.png)
+
+## Ultima Fase: Screenshot de la pagina web
+
+![imagen](img/screenshotweb.png)
