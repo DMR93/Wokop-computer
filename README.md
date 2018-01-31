@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto trata de una pagina (Landing page) para promocionar una app para android.
+Este proyecto trata de una pagina (Landing page) para promocionar una app para dispositivo móvil.
 
 ## Perfiles de usuario
 
