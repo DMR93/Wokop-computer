@@ -143,6 +143,14 @@ footer {
 #galeria h3  {
   text-align: center;
   padding: 0;
+  color: white;
+}
+
+#galeria p {
+  text-align: center;
+  padding: 0;
+  color: white;
+  font-family: 'Coustard', serif;
 }
 
 #formulario {
@@ -154,13 +162,14 @@ footer {
   display: flex;
   text-align: center;
   justify-content: center;
+  color: white;
 }
 
 #formulario input {
   margin-bottom: 10px;
 }
 #formulario textarea {
-width: 200px;
+width: 210px;
 padding: 10px;
 margin-bottom: 10px;
 }
